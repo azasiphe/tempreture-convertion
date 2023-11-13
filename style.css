@@ -52,3 +52,15 @@ button {
 button:hover {
     background-color: darkviolet;
 }
+@media (min-width: 768px) {
+    .buttons {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .buttons {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
